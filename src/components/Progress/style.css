@@ -1,0 +1,26 @@
+.cmp-progress {
+    height: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+
+.cmp-progress-indicator {
+    margin: 0;
+    height: 100%;
+    background-color: skyblue;
+    width: 0;
+}
+
+.cmp-progress-indicator-animation {
+    animation: cmp-progress-indicator-animation;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cmp-progress-indicator-animation {
+    0% { width: 0; }
+    50% { width: 50% }
+    100% { width:100%; }
+}
