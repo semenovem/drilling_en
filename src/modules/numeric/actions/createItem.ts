@@ -22,6 +22,6 @@ function _createItem(): types.Item {
 
   return {
     number: num,
-    duration: num < 1000 ? 7000 : 14000,
+    duration: num < 100 ? 5000 : 10000,
   };
 }

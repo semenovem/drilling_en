@@ -21,7 +21,7 @@ export const initState: State = {
   list: [
     {
       number: 34,
-      duration: 10000,
+      duration: 5000,
     }
   ],
 };
